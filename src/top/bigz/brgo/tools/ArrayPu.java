@@ -22,6 +22,7 @@ public class ArrayPu {
      * @author yangwenbin
      */
     public Object[] chunk(Object[] inArray, int size) {
+
         return null;
     }
 }
