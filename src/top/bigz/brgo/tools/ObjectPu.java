@@ -6,5 +6,10 @@ package top.bigz.brgo.tools;
  * @author yangwenbin
  */
 public class ObjectPu {
-
+    public static String cf = "cf";
+    static {
+//        ObjectPuChildren objectPuChildren = new ObjectPuChildren();
+//        objectPuChildren.setLv("init by your father");
+        System.out.println("init father");
+    }
 }
