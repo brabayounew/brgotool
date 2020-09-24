@@ -5,7 +5,6 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
-import java.util.Collection;
 import java.util.Set;
 
 /**
@@ -15,6 +14,16 @@ import java.util.Set;
  * @date 2019-10-17 09:29:11
  */
 public class JsonPu {
+
+    /**
+     * 去掉 value 值为空的  键值对
+     *
+     * @param sourceJsonStr
+     * @return
+     */
+    public static String filterNullValue(String sourceJsonStr) {
+        return "";
+    }
 
     /**
      * 合并json
